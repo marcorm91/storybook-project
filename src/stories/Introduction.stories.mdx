@@ -1,0 +1,52 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import Intro from './assets/sb-intro.png';
+import Storybook from './assets/logo-storybook.png';
+
+<Meta title="Introduction" />
+
+<style>{`
+  *{
+    font-family: var(--font-family-regular);
+  }
+  .sb-main-fullscreen.sb-show-main{
+    overflow-x: hidden;
+  }
+  .sb-logo{
+    position: fixed;
+    bottom: -10%;
+    right: -10%;
+    z-index: 0;
+    opacity: .1;
+    width: 50%;
+  }
+  
+`}</style>
+
+<img src={Storybook} alt="Storybook" class="sb-logo" />
+<img src={Intro} alt="Intro Sb" /> <br/><br/>
+<h1>Storybook with React & Styled Components</h1><br/>
+<p>This is a base project to get you started with the React library and Styled Components.</p>
+<p>New methods and new practices will be added to the project over time.</p>
+<p>Below is the README to download and install the project.</p>
+
+<hr/>
+
+#### **This project uses [typescript](https://www.typescriptlang.org/)
+
+#### node version
+
+16.13.0
+
+with nvm: `nvm use` on root folder
+
+#### install
+
+`npm install --legacy-peer-deps` on base folder
+
+#### story book
+
+`npm run storybook`
+
+* [react-responsive](https://github.com/contra/react-responsive)
+* [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel)
+* [react-device-detect](https://github.com/duskload/react-device-detect)
