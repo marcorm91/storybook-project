@@ -1,0 +1,39 @@
+:root{
+
+    --blue-color: #1267A2;
+    --blue-2-color: #094E7A;
+    --blue-3-color: #0076BA;
+    --blue-4-color: #ECF3F8;
+    --blue-5-color: #115F95;
+    --blue-6-color: #F6F8FA;
+    --blue-7-color: #13639B;
+    --black-color: #313131;
+    --black-2-color: #24292E;
+    --white-color: #FFFFFF;
+    --white-op64-color: #FFFFFF64;
+    --red-color: #D11A01;
+    --green-color: #34A300;
+    --darkgray-color: #4A4A4A;
+    --darkgray-2-color: #A5ABB3;
+    --darkgray-3-color: #D9DADB;
+    --darkgray-4-color: #5A6474;
+    --lightgray-color: #E1E3E6;
+    --lightgray-2-color: #F8F8F8;
+    --lightgray-3-color: #C3C7CE;
+    --lightgray-4-color: #E5E5E5;
+    --lightgray-5-color: #B2B3B4;
+    --boxshadow-default: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    --boxshadow-selected: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    --boxshadow-popup: 0px 4px 12px rgba(0, 0, 0, 0.15);
+
+    --header-config-height: 72px;
+    --header-primary-height: 80px;
+    --header-secondary-height: 95px;
+    --left-menu-width: 360px;
+
+    --font-family-regular: 'NotoSans-Regular';
+    --font-family-medium: 'NotoSans-Medium';
+    --font-family-semibold: 'NotoSans-SemiBold';
+    --font-family-bold: 'NotoSans-Bold';
+    
+}
