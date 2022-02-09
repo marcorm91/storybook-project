@@ -1,12 +1,12 @@
 # Connect
 
-this project uses [typescript](https://www.typescriptlang.org/)
+This project uses [typescript](https://www.typescriptlang.org/)
 
 ## node version
 
 16.13.0
 
-with nvm: `nvm use` on root folder
+With nvm: `nvm use` on root folder
 
 ## install
 
